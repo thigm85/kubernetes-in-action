@@ -17,3 +17,9 @@ where `kubia` was the tag name adopted in the book.
 ```
 docker images
 ```
+
+* Running the container image
+
+```
+docker run --name kubia-container -p 8080:8080 -d kubia
+```
