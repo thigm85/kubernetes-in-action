@@ -11,3 +11,9 @@ docker build -t kubia .
 ```
 
 where `kubia` was the tag name adopted in the book.
+
+* Listing locally stored images
+
+```
+docker images
+```
