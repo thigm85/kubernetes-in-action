@@ -33,6 +33,6 @@ docker ps
 * Get additional info about a container
 
 ```
-docker inspect kubia-container
+docker inspect <container_name>
 ```
 
