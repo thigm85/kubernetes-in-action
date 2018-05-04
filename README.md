@@ -30,3 +30,9 @@ docker run --name kubia-container -p 8080:8080 -d kubia
 docker ps
 ```
 
+* Get additional info about a container
+
+```
+docker inspect kubia-container
+```
+
