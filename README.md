@@ -36,3 +36,8 @@ docker ps
 docker inspect <container_name>
 ```
 
+* Running a shell inside a container
+
+```
+docker exec -it <container_name> bash
+```
