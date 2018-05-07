@@ -41,3 +41,21 @@ docker inspect <container_name>
 ```
 docker exec -it <container_name> bash
 ```
+
+* Stop a container
+
+```
+docker stop <container_name>
+```
+
+* List all containers
+
+```
+docker ps -a
+```
+
+* Remove a container
+
+```
+docker rm <container_name>
+```
