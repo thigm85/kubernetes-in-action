@@ -59,3 +59,28 @@ docker ps -a
 ```
 docker rm <container_name>
 ```
+
+* Add a tag to a image
+
+```
+docker tag <source_image>[:tag] <target_image>[:tag]
+```
+
+* List Docker images
+
+```
+docker images
+```
+
+* Login to DockerHub via terminal
+
+```
+docker login
+```
+
+* Push image to DockerHub: `<image>` needs to start with `<user_id>/`
+
+```
+docker push <image>
+```
+
